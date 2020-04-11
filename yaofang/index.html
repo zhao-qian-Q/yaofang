@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="./lib/bootstrap/css/bootstrap.css"> -->
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/base.css">
+    <!-- <link rel="stylesheet" href="./lib/bootstrap/css/bootstrap.css"> -->
+    <link rel="stylesheet" href="./swiper-5.3.6/package/css/swiper.min.css">
+    <style>
+        .swiper-container {
+            width: 100%;
+            height: 100%;
+        }
+
+        .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
+
+            /* Center slide text vertically */
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            align-items: center;
+        }
+       
+    </style>
+</head>
+
+<body>
+    <!-- <div class="left"></div> -->
+    <!-- 总体大盒子 -->
+    <div  id="01"></div>
+    <div class="box">
+        <!-- 头部 -->
+        
+        <div class="header">
+            <img src="./images/logo.png" alt="">
+            <span>宴喜天地主题宴会酒店</span>
+        </div>
+        <!-- 轮播图 -->
+        <div class="loop">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="./images/banner01.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="./images/banner02.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="./images/banner03.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="./images/banner01.jpg" alt=""></div>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+
+
+        </div>
+        <!-- 展示区 -->
+        <div class="column">
+            <ul class="media-list">
+                <li class="media">
+                    <div class="media-left">
+                        <a href="#">
+                            <img class="media-object" src="./images/graid02.jpg" alt="...">
+                        </a>
+                    </div>
+                    <div class="media-body">
+                        <p class="media-heading">红韵厅</p>
+                        巴洛克风格
+                    </div>
+                </li>
+            </ul>
+            <ul class="media-list">
+                <li class="media">
+                    <div class="media-left">
+                        <a href="#">
+                            <img class="media-object" src="./images/graid01.jpg" alt="...">
+                        </a>
+                    </div>
+                    <div class="media-body">
+                        <p class="media-heading">光影厅</p>
+                        梦幻奇特
+                    </div>
+                </li>
+            </ul>
+            <ul class="media-list">
+                <li class="media">
+                    <div class="media-left">
+                        <a href="#">
+                            <img class="media-object" src="./images/03.jpg.webp" alt="...">
+                        </a>
+                    </div>
+                    <div class="media-body">
+                        <p class="media-heading">爱琴海厅</p>
+                        梦幻海洋
+                    </div>
+                </li>
+            </ul>
+            <ul class="media-list">
+                <li class="media">
+                    <div class="media-left">
+                        <a href="#">
+                            <img class="media-object" src="./images/04.jpg.webp" alt="...">
+                        </a>
+                    </div>
+                    <div class="media-body">
+                        <p class="media-heading">樱缘厅</p>
+                        浪漫唯美
+                    </div>
+                </li>
+            </ul>
+            <ul class="media-list">
+                <li class="media">
+                    <div class="media-left">
+                        <a href="#">
+                            <img class="media-object" src="./images/05.jpg.webp" alt="...">
+                        </a>
+                    </div>
+                    <div class="media-body">
+                        <p class="media-heading">化妆间</p>
+                        独立舒适
+                    </div>
+                </li>
+            </ul>
+            <ul class="media-list">
+                <li class="media">
+                    <div class="media-left">
+                        <a href="#">
+                            <img class="media-object" src="./images/06.jpg.webp" alt="...">
+                        </a>
+                    </div>
+                    <div class="media-body">
+                        <p class="media-heading">多功能厅</p>
+                        <span>灵活多变</span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <!-- 底部导航 -->
+        <div class="nav">
+            <div class="nav-top">
+                <h4>宴喜天地</h4>
+                <span>|<span>
+                        <span>Formal party</span>
+            </div>
+            <p>我们不仅仅记录宴会本身，还有一场宴会的气质！</p>
+        </div>
+        <!-- 返回顶部 -->
+        <div class="returnTop">
+            <a href="#01">Top</a>
+            <img src="./images/returntop.png" alt="">
+        </div>
+        <!-- 底部 -->
+        <footer>
+            <div>宴喜天地主题宴会酒店&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;0816-3679888<br>
+                <img src="./images/ABUIABAEGAAglMfh4AUomNXmkgcwFDgU.png" alt="">
+                川公网安备51078102110120号
+            </div>
+            <p>蜀ICP备18036027号</p>
+
+        </footer>
+        <!-- 伸缩菜单按钮 -->
+        <div class="m-btn" id="btn">
+            <div></div>
+            <div></div>
+            <div></div>
+            
+        </div>
+        <!-- 伸缩菜单展开 -->
+        <div class="menu" id="menu">
+            <div><img src="./images/index.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;首页</div>
+            <div><img src="./images/iconfont/02.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;产品展示<img src="./images/left.png" alt="" id="img-left"></div>
+            <div><img src="./images/iconfont/03.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;宴会策划</div>
+            <div><img src="./images/iconfont/04.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;宴喜美食</div>
+            <div><img src="./images/iconfont/05.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;策划团队</div>
+            <div><img src="./images/iconfont/06.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;最新活动</div>
+            <div><img src="./images/iconfont/07.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;关于我们</div>
+
+        </div>
+        <!-- 固定底部的应用栏 -->
+        <div class="qq">
+            <ul>
+                <li>
+                    <a href="#">
+                        <img src="./images/icon_y4n4yvyml5/web-icon-.png" alt="">
+                        <p>在线预约</p>
+                    </a>
+
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./images/icon_y4n4yvyml5/xinxi.png" alt="">
+                        <p>信息咨询</p>
+                    </a>
+
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./images/icon_y4n4yvyml5/dianhua.png" alt="">
+                        <p>电话咨询</p>
+                    </a>
+
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./images/icon_y4n4yvyml5/location.png" alt="">
+                        <p>一键导航</p>
+                    </a>
+
+                </li>
+            </ul>
+
+        </div>
+
+    </div>
+
+
+
+</body>
+<script src="./swiper-5.3.6/package/js/swiper.min.js"></script>
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        pagination: {
+            el: '.swiper-pagination',
+        },
+    });
+</script>
+<script src="./lib/jquery/jquery.min.js"></script>
+<script src="./js/main.js"></script>
+
+
+</html>
